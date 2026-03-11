@@ -1,16 +1,25 @@
-# React + Vite
+# Multi-Modal Toxicity Detector: AI Moderator 🛡️🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sophisticated AI moderation system designed to detect and flag harmful content across multiple data formats (Text & Visuals) in real-time.
 
-Currently, two official plugins are available:
+## 🚀 The Mission
+This project addresses the growing need for safety in digital environments. By utilizing advanced NLP and computer vision, it automates the detection of toxic behavior that manual moderation often misses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
+* **Multi-modal Analysis:** Processes both text-based messages and visual inputs for a holistic safety check.
+* **Real-time Detection:** Integrated with a **React** frontend for instant feedback.
+* **Scalable Backend:** Built with **Python/Node.js** (based on your stack) to handle high-frequency moderation tasks.
 
-## React Compiler
+## 🛠️ Tech Stack
+* **Frontend:** React + Vite
+* **AI Models:** BERT (for Text), OpenCV/TensorFlow (for Visuals)
+* **Backend:** Express.js / Python (Flask/FastAPI)
+* **API Integration:** Real-time moderation endpoints
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 How to Run
+1. **Install Frontend:** `npm install`
+2. **Launch UI:** `npm run dev`
+3. **Run AI Engine:** `python app.py`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Developed by **Moli Maheshwari** | Focused on AI Safety and Ethical Engineering*
